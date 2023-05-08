@@ -1,6 +1,7 @@
 package com.store.storeWebApp.model.item;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,6 +12,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "items")
 public class ItemDb {
 
+    @Id
     private int itemId;
     private double itemPrice;
     private int itemQuantity;

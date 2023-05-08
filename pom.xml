@@ -70,6 +70,11 @@
 			<version>2.0.1-beta</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>6.0.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
